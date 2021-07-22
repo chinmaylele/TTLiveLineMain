@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>BetFair API - A Website where you can get betfair API at reasonable rate</title>
+  <meta content="Free information about live game scores from API, VRNL provides you accurate information about all sports!" name="description">
+  <meta content="cricket sports live betfair api teenpatti api betfair api betfair login api betfair api cost betfair api excel betfair betting api betfair app" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/images/favicon.ico" rel="icon">
+  <link href="assets/images/apple-touch-icon-180x180.png" rel="apple-touch-icon">
+
+  <!-- CDNs -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" async defer></script>
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-202022990-1"></script>
+<script async = "true">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-202022990-1');
+</script>
+
+</head>
+
+<body onload="createCaptcha()">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      
+      <a href="index.html" class="logo mr-auto"><img src="assets/images/logo.webp" alt="logo" class="img-fluid"></a>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#header">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Providers</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+     </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Welcome to BetFair Odds API </h1>
+          <h2>We provide Live Scores TV directly from API</h2>
+          <div class="d-lg-flex">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/images/apiedit.webp" class="img-fluid animated" alt="float-img">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Cliens Section ======= -->
+    <section id="cliens" class="cliens section-bg">
+      <div class="container">
+        <p style = "text-align: center; font-size: 20px; font-family: cursive; color: #010e0b; margin-bottom: 0px;"><strong>Our Partner Sites</strong></p>
+        <div class="row" data-aos="zoom-in" style="display: flex; flex-direction: row; flex-wrap: nowrap; overflow-x: scroll; overflow-y: hidden; justify-content: flex-start;">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" style>
+            <a href="comingsoon.html" target = "_blank"><img src="assets/images/2261511.webp" loading="lazy" class="img-fluid" alt="2261511" style = "width: 55%;"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="comingsoon.html" target = "_blank"><img src="assets/images/40522.webp" loading="lazy" class="img-fluid" alt="140522" style = "width: 55%;"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="http://yorkerclub.xyz" target = "_blank"><img src="assets/images/yorkerclub.webp" loading="lazy" class="img-fluid" alt="yorkerclub" style = "width: 55%;"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="http://vrnl.net/" target = "_blank"><img src="assets/images/vrnlnet.webp" loading="lazy" class="img-fluid" alt="vrnlnet" style = "width: 55%;"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="http://vrnl.xyz/site/" target = "_blank"><img src="assets/images/vrnlxyz.webp" loading="lazy" class="img-fluid" alt="vrnlxyz" style = "width: 55%;"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="https://livesportscore.xyz/" target = "_blank"><img src="assets/images/livesportcore.webp" loading="lazy" class="img-fluid" alt="livesportscore" style="width: 75%;"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="http://vrnl.fun/" target = "_blank"><img src="assets/images/vrnlfun.webp" loading="lazy" class="img-fluid" alt="vrnlfun" style = "width: 55%;"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="http://streamingtv.fun/" target = "_blank"><img src="assets/images/streamingtv.webp" loading="lazy" class="img-fluid" alt="streamingtv" style="width: 100%;"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="http://tvlivestreaming.online/" target = "_blank"><img src="assets/images/tvstreaming.webp" loading="lazy" class="img-fluid" alt="tvlivestreaming" style="width: 100%; padding-top: 0px;"></a>
+          </div>
+
+
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="https://affwl.com/" target = "_blank"><img src="assets/images/affwl.webp" loading="lazy" class="img-fluid" alt="affwl"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="comingsoon.html" target = "_blank"><img src="assets/images/22101975.webp" loading="lazy" class="img-fluid" alt="22101975" style = "width: 65%;"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="https://squarex.live/" target = "_blank"><img src="assets/images/squarex.webp" loading="lazy" class="img-fluid" alt="squarex" ></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="https://binarybrics.com/" target = "_blank"><img src="assets/images/binarybrics.webp" loading="lazy" class="img-fluid" alt="binarybrics" style = "width: 65%;"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="http://exchlotus.net/#/login" target = "_blank"><img src="assets/images/ExchLotus1.webp" loading="lazy" class="img-fluid" alt="exchlotus" ></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="http://exchdiamond.net/#/login" target = "_blank"><img src="assets/images/exchdiamond.webp" loading="lazy" class="img-fluid" alt="exchdiamond" ></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="http://cricexch.net/#!/" target = "_blank"><img src="assets/images/cricexch.webp" loading="lazy" class="img-fluid" alt="cricexch" ></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="http://ppoker.tech/" target = "_blank"><img src="assets/images/ppoker.webp" loading="lazy" class="img-fluid" alt="ppoker"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="http://cricbuzzer.io/" target = "_blank"><img src="assets/images/cricbuzzer.webp" loading="lazy" class="img-fluid" alt="cricbuzzer" ></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="http://skysports365.com/#!/" target = "_blank"><img src="assets/images/skysports365.webp" loading="lazy" class="img-fluid" alt="skysports365" ></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="https://unitron.tech/" target = "_blank"><img src="assets/images/unitron.webp" loading="lazy" class="img-fluid" alt="unitron" ></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="http://multiexch.com/#/login" target = "_blank"><img src="assets/images/multiexch.webp" loading="lazy" class="img-fluid" alt="multiexch" ></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="https://play.google.com/store/apps/details?id=com.vrn.liveline" target = "_blank"><img src="assets/images/ttliveline.webp" loading="lazy" class="img-fluid" alt="ttliveline"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="http://affwl.fi/ " target = "_blank"><img src="assets/images/affwlfi.webp" loading="lazy" class="img-fluid" alt="affwlfi" style = "width: 65%;"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="https://108786.net/" target = "_blank"><img src="assets/images/108786.webp" loading="lazy" class="img-fluid" alt="108786"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="http://affwl.no/" target = "_blank"><img src="assets/images/affwlno.webp" loading="lazy" class="img-fluid" alt="affwlno"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="comingsoon.html" target = "_blank"><img src="assets/images/22101975.webp" loading="lazy" class="img-fluid" alt="22101975" style="width: 75%;"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="comingsoon.html" target = "_blank"><img src="assets/images/10221975.webp" loading="lazy" class="img-fluid" alt="108786"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="comingsoon.html" target = "_blank"><img src="assets/images/19751022.webp" loading="lazy" class="img-fluid" alt="108786" style="width: 70%;"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="https://skyinrplay.com/" target = "_blank"><img src="assets/images/skyinrplay.webp" loading="lazy" class="img-fluid" alt="108786"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="comingsoon.html" target = "_blank"><img src="assets/images/07071973.webp" loading="lazy" class="img-fluid" alt="108786"></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <a href="comingsoon.html" target = "_blank"><img src="assets/images/mmebsc.webp" loading="lazy" class="img-fluid" alt="108786" style="width: 80%;"></a>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Cliens Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up" style="display: flex; flex-direction: column;">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+        </div>
+
+        <div class="col-lg-8 align-self-center">
+          <div class="services">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                  <div class="icon">
+                    <img src="assets/images/betfair.webp" loading="lazy" alt="betfair" width="15%">
+                  </div>
+                  <div class="right-text">
+                    <h4>Betfair API Provider</h4>
+                    <p>Betfair API is an important requirement for odds and the results. They provide licensed vendor API and it's the best provider in India.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+                  <div class="icon">
+                    <img src="assets/images/teenpatti.webp" loading="lazy" alt="teenpatti" width="15%">
+                  </div>
+                  <div class="right-text">
+                    <h4>Diamond Teenpatti API Provider</h4>
+                    <p>We provide all live casino games API stats For your Casino Gambling Website, you always need an API so that you can integrate it with your website.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s">
+                  <div class="icon">
+                    <img src="assets/images/live.webp" loading="lazy" alt="live" width="15%">
+                  </div>
+                  <div class="right-text" style="width: 100%;">
+                    <h4>Live Score API Provider</h4>
+                    <p>This API provides live scores to all sports websites.</p>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="1.1s">
+                  <div class="icon">
+                    <img src="assets/images/fancy.webp" loading="lazy" alt="fancy" width="20%">
+                  </div>
+                  <div class="right-text">
+                    <h4>Fancy Session API Provider</h4>
+                    <p>Fancy API is used to integrate sessions to into cricket betting websites so you can display live session fancy and their result in your website.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <h3>Grow your business with the help of our <em style="color: red; font-weight: bold;">Website</em> &amp; <i><span style="color: red; font-weight: bold;">Experienced Staff</span></i></h3>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"></div>
+              <h4 style="color: teal;">Cricket</h4>
+              <p>Fastest Live Cricket Scores updates! Stay Tuned for Updates! Cricket Fancy will be displayed</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"></div>
+              <h4 style="color: teal;">Football</h4>
+              <p>All tournament scores will be displayed. Live Match Scores will be displayed as well.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"></div>
+              <h4 style="color: teal;">Tennis</h4>
+              <p>Scores will be displayed directly from API. Wimbledon matches will be displayed live.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"></div>
+              <h4 style="color: teal;">All Sports</h4>
+              <p>We provide Verity of sports on our Website. Cricket Fancy, Betfair APIs. We also provide development services</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3>About BetFair</h3>
+            <p> Betfair exchange is the most used for sports betting in India. Bookies in India prefer Betfair exchange 
+              feeds due to the psychology of Indian markets of the stock market which has Bid and ASK, and in sports exchange, 
+              they have Back and Lay.
+              <br>
+              Betfair is the pioneers of online betting on an exchange, Betdaq is not so adapted by Indian due to liquidity.</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Providers</h2>
+        </div>
+
+        <ul id="portfolio-flters" class="d-flex justify-content-start" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-betfair">BetFair</li>
+          <li data-filter=".filter-livescore">Live&nbsp;Score</li>
+          <li data-filter=".filter-teenpatti">Diamond&nbsp;TeenPatti</li>
+          <li data-filter=".filter-livestreaming">SPorts&nbsp;Live&nbsp;Streaiming</li>
+          <li data-filter=".filter-fancysession">Fancy&nbsp;Session</li>
+        </ul>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-betfair">  
+              <h3>What is BetFair?</h3>
+              <p>Out of India, many of them make a full time living through online sports betting and gambling. 
+                In India, Betting and Gambling are huge markets. Which comes under the grey area, where the money 
+                comes in at a very high percentage. Here the people are more interested in sports betting, especially 
+                sports like cricket and horse racing, etc. And they are also crazy about casino games and poker. Betfair 
+                is the best and the leading company in the world of online betting and gambling. Betfair offers a portfolio 
+                of gambling products and services globally and it is the world's leading online betting exchange. Sportsbook, 
+                online casino, online poker, and online bingo are also offered by Betfair.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-betfair">
+            <h3>What is BetFair API Provider</h3>
+            <p>Betfair API support is known for the best betfair API provider, we provide you best betfair API 
+              Solution which is mannaged by our sports betting software development company. Betfair Support is a 
+              private financial company specializing in sports betting and betfair API. Our system is risk-free 
+              thanks to the development and improvement of semi-automatic system of rates. We upgraded our automatic 
+              system so that the last step before the rate is now done by our operators.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-betfair">
+            <h3 class="porth">What is BetFair Exchange API</h3>
+                        <p class="port">Betfair Exchange API, it's a platform where the developers can build their customized betting 
+                          tools and interfaces for themselves or the other customers. By using Betfair Exchange API you 
+                          can place bets, check current bet details, find markets, betting history, and account statements. 
+                          Betfair Exchange API, it's a platform where the developers can build their customized betting tools 
+                          and interfaces for themselves or the other customers. By using Betfair Exchange API you can place bets, 
+                          check current bet details, find markets, betting history, and account statements.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-livescore">
+            <h3>What is Live Score API Provider</h3>
+                  <p>Live-score API provides affordable and high-quality football API. We currently provide live-scores, 
+                    fixtures, standings, match events, statistics, head2head, history data with lineups, pre-match odds, 
+                    live odds, and country flags coming down the development pipe.</p> 
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-livescore">
+            <h3 class="porth">What is the Cricket Live Scores API?</h3>
+                    <p class="port">
+                      The Cricket Live Scores API provides information on various amounts of cricket data including matches, 
+                      partnerships, players, scorecards, series, teams, commentary and much more. The API gathers information 
+                      from the following match’s scores: ODI, T20, Test, BBL, IPL, and World Cup.
+                    </p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-teenpatti">
+            <h3 class="porth">What is TeenPatti?</h3>
+                  <p class="port">Live TeenPatti (3 Cards) is a gambling card game originated in India and became popular in South Asia. 
+                    It is known as Three Cards in English and also called as 'Flash' or 'Flush'. Live TeenPatti is played 
+                    with one deck of 52 cards and against players. The game begins when the players place a bet on either 
+                    of the bet spots which must be equal to the minimum amount indicated for that particular table.Once the 
+                    player has finished placing his bets, the dealer distributes one card to player A and one card to player 
+                    B placing it face up. On distribution of 3 cards to each hand, cards on both hand A and B are compared and 
+                    the hand which has highest card combination wins.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-teenpatti">
+            <h3>What is Diamond TeenPatti API Provider?</h3>
+                    <p>Teen Patti is one of the best and the popular game which is mostly played among the game enthusiasts, 
+                      our team of TeenPatti game gives you the best TeenPatti game software API in terms of quality. 
+                      Live casino API is a leading teen Patti game live casino API software provider company and a well-known
+                      name in the gaming industry. Teenpatti is being among one of the most favorite games to be played in the 
+                      gambling world. Live casino API developers have capable to establish sequential events like responsive 
+                      events, chat, etc. Our TeenPatti game API provider services include standard features and functionalities. 
+                      Live casino API is the top leading TeenPatti Game casino API provider company. 
+                      We have advanced resources and years of experience in the Teen Patti game API provider. 
+                      We understand the expectations of gamers and make an informed decision about how to introduce 
+                      new elements in every existing game. Our main motive is to provide all the necessary modules needed to run</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-livestreaming">
+            <h3>What is Sports Live Streaming Provider?</h3>
+                  <p>A service which provides live information about any sports.</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-fancysession">
+            <h3>Fancy session API provider</h3>
+                  <p>Fancy API is used to integrate sessions to into cricket betting websites so you can display 
+                    live session fancy and their result in your website.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-in" data-aos-delay="200">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+          <p>We try to answer as many questions as we can. If you don't see your question mentioned here, please feel free to contact us</p>
+        </div>
+
+        <button class="accordion">How to use Betfair api </button>
+<div class="panel">
+  <p><strong>Betfair api</strong> can be used for different alternative options</p>
+  <ol class="faqol">
+    <li class="faqli">For development of apps for betfair</li>
+    <li class="faqli">For research and historical data (majorly used for horseracing and greyhound)</li>
+    <li class="faqli">Just for odds on which countries like India, UAE, Bangladesh place bets with local bookies</li>
+  </ol>
+  <p>Technical Documentation for <strong>How to use betfair api</strong> can be found on <a href="https://docs.developer.betfair.com/display/1smk3cen4v3lu3yomq5qye0ni#APIOverview-ExchangeAPIProducts" style="color: blue;"> How to use betfair api </a> </p>
+</div>
+
+<button class="accordion">How to get betfair api</button>
+<div class="panel">
+  <p>There are Two types of <strong>Betfair api</strong> </p>
+  <p>Personal API 
+    <br>
+    Commercial API 
+    </p>
+    <p>Both of these API's are available after providing enough information to betfair with documents, reason and use of the api.
+    </p>
+    <p>alternative option to <strong>get betfair api</strong></p>
+    <p><a href="http://betfairoddsapi.com/" style="color: blue;"> How to get betfair api</a> provides betfair api with 99.99% Uptime with guaranteed backups.</p>
+</div>
+
+<button class="accordion">How to get betfair api in India</button>
+<div class="panel">
+  <p><a href="http://betfairoddsapi.com/" style="color: blue;"> How to get betfair api</a> in India provides betfair api in India with the most reasonable rates and a proper structure matched with betfair documentation.</p>
+  <p>24*7 Support on <a href="skype:live:.cid.8f90251ba2ed4c3f?chat" style="color: blue;">Skype</a>
+    Call on <a href="tel:+919321493757" style="color: blue;">+91 9321493757</a> for more details and demo .
+    </p>
+    
+</div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <br>
+    <br>
+
+    <!-- =======Blog Section=======- -->
+    <Section id="blog" data-aos="fade-up" data-aos-delay="200">
+      <div class="section-title">
+        <h2>Blog</h2>
+      </div>
+      <div class="container">
+      <div class="row">
+
+        <div class="col-lg-12">
+          <div class="post-box">
+            <div class="post-img"><a href="BlogPage1.html"><img src="assets/images/b1.webp" loading="lazy" class="img-fluid-new" alt=""></a></div>
+            <span class="post-date">Mon, Aug 8</span>
+            <h3 class="post-title"><a href="BlogPage1.html">Read the latest blogs and news!</a></h3>
+            <a href="BlogPage1.html" class="readmore stretched-link mt-auto"><span>Read More&nbsp;</span><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div> 
+        
+      </div>
+    </div>
+    </Section>
+      
+<!--============ swiper section ==========-->
+<section data-aos="zoom-in" data-aos-delay="200" style="background-color: #f3f5fa;">
+    <div class="section-title" >
+      <h2>Our Clients</h2>
+    </div>
+    <section class="swiper">
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="text-align: center;"><a href="https://www.sapphire9exch.com/" target = "_blank"><img data-src="assets/images/sapphire.svg" class="swiper-lazy"alt="sapphire" ></a></div>
+          <div class="swiper-slide"><a href="https://www.sarkarexch.com/" target = "_blank"><img data-src="assets/images/sarkarexch.webp" class="swiper-lazy"alt="sarkarexch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.thebigbetexch.com/" target = "_blank">  <img data-src="assets/images/thebigbet.webp"  class="swiper-lazy"alt="thebigbet" ></a></div>
+          <div class="swiper-slide"><a href="https://www.sunexch999.com/" target = "_blank">    <img data-src="assets/images/SunExch999.webp"  class="swiper-lazy"alt="sunexch999" ></a></div>
+          <div class="swiper-slide"><a href="https://www.royalking77.com/" target = "_blank">   <img data-src="assets/images/RoyalKing 77.webp"  class="swiper-lazy"alt="royalking77"></a></div>
+          <div class="swiper-slide"><a href="https://www.oxygenexch.com/" target = "_blank">  <img data-src="assets/images/oxygenexch.webp"  class="swiper-lazy"alt="oxygenexch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.earlyexch.com/" target = "_blank">  <img data-src="assets/images/EarlyExch.webp" class="swiper-lazy"alt="earlyexch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.national999.com/" target = "_blank">   <img data-src="assets/images/national999.webp" class="swiper-lazy"alt="national999" ></a></div>
+          <div class="swiper-slide"><a href="https://www.dreams11exch.com/" target = "_blank">   <img data-src="assets/images/dreams11logo.webp" class="swiper-lazy"alt="dreams11exch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.raytham99.com/" target = "_blank">   <img data-src="assets/images/Raytham99.webp" class="swiper-lazy"alt="raytham99" ></a></div>
+          <div class="swiper-slide"><a href="https://www.greenbet.live/" target = "_blank">   <img data-src="assets/images/GreenBet.webp" class="swiper-lazy"alt="greenbet" ></a></div>
+          <div class="swiper-slide"><a href="https://www.pinkbet.live/" target = "_blank">   <img data-src="assets/images/pinkbet.live.webp" class="swiper-lazy"alt="pinkbet" ></a></div>
+          <div class="swiper-slide"><a href="https://www.purplebet.live/" target = "_blank">   <img data-src="assets/images/Purplebet.live.webp" class="swiper-lazy"alt="purplebet" ></a></div>
+          <div class="swiper-slide"><a href="https://www.yellowbet.live/" target = "_blank">   <img data-src="assets/images/YellowBet.webp" class="swiper-lazy"alt="yellowbet" ></a></div>
+          <div class="swiper-slide"><a href="https://www.coralbet.live/" target = "_blank">   <img data-src="assets/images/coralbet.live.webp" class="swiper-lazy"alt="coralbet" ></a></div>
+          <div class="swiper-slide"><a href="https://www.fairbet9exch.com/" target = "_blank">   <img data-src="assets/images/Fairbet9exch.webp" class="swiper-lazy"alt="fairbet9exch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.silver9exch.com/" target = "_blank">   <img data-src="assets/images/Silver9Exch.webp" class="swiper-lazy"alt="silver9exch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.silverexch247.com/" target = "_blank">   <img data-src="assets/images/silverexch247.webp" class="swiper-lazy"alt="silverexch247" ></a></div>
+          <div class="swiper-slide"><a href="https://www.bmwbets.com/" target = "_blank">   <img data-src="assets/images/bmwbets.com.webp" class="swiper-lazy"alt="bmwbets" ></a></div>
+          <div class="swiper-slide"><a href="https://www.gokulexch99.com/" target = "_blank">   <img data-src="assets/images/gokulexch99.webp" class="diffimg swiper-lazy" alt="gokulexch99" ></a></div>
+          <div class="swiper-slide"><a href="https://www.aquabet.live/" target = "_blank">   <img data-src="assets/images/aquabetbrand_logo.svg" class="swiper-lazy"alt="aquabet" ></a></div>
+          <div class="swiper-slide"><a href="https://www.colourbet.live/" target = "_blank">   <img data-src="assets/images/colourbetbrand_logo.svg" class="swiper-lazy"alt="colourbet" ></a></div>
+          <div class="swiper-slide"><a href="https://www.coral9exch.com/" target = "_blank">   <img data-src="assets/images/coral9exchbrand_logo.svg" class="swiper-lazy"alt="coral9exchbrand_logo" ></a></div>
+          <div class="swiper-slide"><a href="https://www.jss9exch.com/" target = "_blank">   <img data-src="assets/images/jss9exchbrand_logo.svg" class="swiper-lazy"alt="jss9exch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.sapphire99exch.com/" target = "_blank">   <img data-src="assets/images/sapphire99exchbrand_logo.svg" class="swiper-lazy"alt="sapphire99exch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.future9exch.com/" target = "_blank">   <img data-src="assets/images/future9exchbrand_logo.svg" class="swiper-lazy"alt="future9exch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.bright9exch.com/" target = "_blank">   <img data-src="assets/images/bright9exchbrand_logo.svg" class="swiper-lazy"alt="bright9exch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.world9exch.com/" target = "_blank">   <img data-src="assets/images/world9exchbrand_logo.svg" class="swiper-lazy"alt="world9exch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.pdexch.com/" target = "_blank">   <img data-src="assets/images/pdexchbrand_logo.webp" class="swiper-lazy"alt="pdexchbrand_logo" ></a></div>
+          <div class="swiper-slide"><a href="https://www.appleexch9.co/" target = "_blank">   <img data-src="assets/images/appleexch9brand_logo.svg" class="swiper-lazy"alt="appleexch9" ></a></div>
+          <div class="swiper-slide"><a href="https://www.jssbets.com/" target = "_blank">   <img data-src="assets/images/jssbetsbrand_logo.svg" class="swiper-lazy"alt="jssbetsbrand_logo" ></a></div>
+          <div class="swiper-slide"><a href="https://www.king9exch.com/" target = "_blank">   <img data-src="assets/images/king9exchbrand_logo.svg" class="swiper-lazy"alt="king9exch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.play9exch.com/" target = "_blank">   <img data-src="assets/images/play9exchbrand_logo.svg" class="swiper-lazy"alt="play9exch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.jua9exch.com/" target = "_blank">   <img data-src="assets/images/jua9exchbrand_logo.svg" class="swiper-lazy"alt="jua9exch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.lords9exch.com/" target = "_blank">   <img data-src="assets/images/lords9exchbrand_logo.webp" class="swiper-lazy"alt="lords9exch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.lotus9exch.com/" target = "_blank">   <img data-src="assets/images/lotus9exchbrand_logo.svg" class="swiper-lazy"alt="lotus9exch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.theredbet.com/" target = "_blank">   <img data-src="assets/images/theredbetbrand_logo.svg" class="swiper-lazy"alt="theredbet" ></a></div>
+          <div class="swiper-slide"><a href="https://www.dhoniexch.com/ " target = "_blank">   <img data-src="assets/images/dhoniexchbrand_logo.webp" class="swiper-lazy"alt="dhoniexch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.loveexch777.com/" target = "_blank">   <img data-src="assets/images/loveexch777brand_logo.svg" class="swiper-lazy"alt="loveexch777" ></a></div>
+          <div class="swiper-slide"><a href="https://www.goldbet5.com/" target = "_blank">   <img data-src="assets/images/goldbet5brand_logo.svg" class="swiper-lazy"alt="goldbet5brand_logo" ></a></div>
+          <div class="swiper-slide"><a href="https://www.radheexchange.com/" target = "_blank">   <img data-src="assets/images/radheexchange.webp" class="swiper-lazy"alt="radheexchange" ></a></div>
+          <div class="swiper-slide"><a href="https://www.radheexch.com/" target = "_blank">   <img data-src="assets/images/radheexch.webp" class="swiper-lazy"alt="radheexch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.jsr9exch.com/" target = "_blank">   <img data-src="assets/images/jsr9exch.svg" class="swiper-lazy"alt="jsr9exch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.mrbeanexch.com/" target = "_blank">   <img data-src="assets/images/mrbeanexch.svg" class="swiper-lazy"alt="mrbeanexch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.dettolexch.com/" target = "_blank">   <img data-src="assets/images/dettolexch.svg" class="swiper-lazy"alt="dettolexch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.primebook777.com/" target = "_blank">   <img data-src="assets/images/primebook777.svg" class="swiper-lazy"alt="primebook777" ></a></div>
+          <div class="swiper-slide"><a href="https://www.fortune777.io/" target = "_blank">   <img data-src="assets/images/fortune777.svg" class="swiper-lazy"alt="fortune777" ></a></div>
+          <div class="swiper-slide"><a href="https://www.fortuneexch.com/" target = "_blank">   <img data-src="assets/images/fortuneexch.svg" class="swiper-lazy"alt="fortuneexch" ></a></div>
+          <div class="swiper-slide"><a href="https://www.exch999.com/" target = "_blank">   <img data-src="assets/images/exch999.svg" class="swiper-lazy"alt="exch999" ></a></div>
+          <div class="swiper-slide"><a href="http://heeraexch.com/login" target = "_blank">   <img data-src="assets/images/heeraexch.webp" class="resizeimg swiper-lazy" alt="heeraexch" ></a></div>
+          <div class="swiper-slide"><a href="https://bullexch.com/home" target = "_blank">   <img data-src="assets/images/bullexch.webp" class="resizeimg swiper-lazy" alt="bullexch" ></a></div>
+          <div class="swiper-slide"><a href="https://betdaily.site/home" target = "_blank">   <img data-src="assets/images/betdaily.webp" class="resizeimg swiper-lazy" alt="betdaily" ></a></div>
+          <div class="swiper-slide"><a href="https://hdexch444.com/home" target = "_blank">   <img data-src="assets/images/hdexch444.webp" class="swiper-lazy"alt="hdexch444" ></a></div>
+          <div class="swiper-slide"><a href="https://betfair111.com/home" target = "_blank">   <img data-src="assets/images/betfair111.webp" class="swiper-lazy swiper-lazy"alt="betfair111" ></a></div>
+          <div class="swiper-slide"><a href="https://gsrexch.com/home" target = "_blank">   <img data-src="assets/images/gsrexch.webp" class="resizeimg swiper-lazy" alt="gsrexch" ></a></div>
+          <div class="swiper-slide"><a href="https://waterbook777.com/home" target = "_blank">   <img data-src="assets/images/waterbook777.webp" class="resizeimg swiper-lazy"  alt="waterbook777" ></a></div>
+          <div class="swiper-slide"><a href="https://allin1exch.com/home" target = "_blank">   <img data-src="assets/images/allin1exch.webp" class="swiper-lazy"alt="allin1exch" ></a></div>
+          <div class="swiper-slide"><a href="https://mbook9.com/home" target = "_blank">   <img data-src="assets/images/mbook9.webp" class="resizeimg swiper-lazy" alt="mbook9" ></a></div>
+          <div class="swiper-slide"><a href="https://tirupatiexch.com/home" target = "_blank">   <img data-src="assets/images/tirupatiexch.webp" class="resizeimg swiper-lazy" alt="tirupatiexch" ></a></div>
+          <div class="swiper-slide"><a href="https://backlay.site/home" target = "_blank">   <img data-src="assets/images/backlay.webp" class="swiper-lazy"alt="backlay" ></a></div>
+          <div class="swiper-slide"><a href="https://more7777.site/home" target = "_blank">   <img data-src="assets/images/more7777.webp" class="swiper-lazy"alt="more7777" ></a></div>
+          <div class="swiper-slide"><a href="https://in.1x001.com/en/?tag=d_50239m_2895c_%5B%5DMS%5B%5Dzeroclick%5B%5DWL%5B%5D1408900585_d26939_l15265_clickunder" target = "_blank">   <img data-src="assets/images/1xbet.svg" class="swiper-lazy"alt="1xbet" ></a></div>
+          <div class="swiper-slide"><a href="https://www.royalexch9.co/" target = "_blank">   <img data-src="assets/images/royalexch9.svg" class="swiper-lazy"alt="royalexch9" ></a></div>
+        </div>
+      </div>
+    </section>
+  </section> <!-- =======end of swiper section========= -->
+    
+
+    <!-- ============contact us section start=========== -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Feel Free to contact</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <a class="skype" href="skype:live:.cid.8f90251ba2ed4c3f?chat" target = "_blank"><i class="fa fa-skype" aria-hidden="true"></i></a>
+                <a class="skype" href="skype:live:.cid.8f90251ba2ed4c3f?chat" target = "_blank"><h4>Skype</h4></a>
+                <p>Click here to message us directly on Skype</p>
+              </div>    
+
+
+              <div class="address">
+                <a class="whatsapp" href="https://wa.me/+919321493757" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a class="whatsapp" href="https://wa.me/+919321493757" target="_blank"><h4>WhatsApp</h4></a>
+                <p>Click here to message us directly on WhatsApp  </p>
+              </div>    
+
+              <div class="email">
+                <a href = "mailto: 108786betfair@gmail.com"><i class="fas fa-envelope"></i></a>
+                <h4>Email:</h4>
+                <a href = "mailto: 108786betfair@gmail.com"><p>108786betfair@gmail.com</p></a>
+              </div>
+
+              <div class="phone">
+                <a href="tel:+919321493757" target = "_blank"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                <h4>Call:</h4>
+                <a href="tel:+919321493757"><p>+919321493757</p></a>
+              </div>
+
+              
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form id="contactfrm" onsubmit="validateCaptcha()" method = "POST" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="name">First Name</label>
+                  <input type="text" name="name" placeholder="Enter Your First Name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Surname</label>
+                  <input type="text" class="form-control" placeholder="Enter Your Surname" name="surname" id="surname" data-rule="minlen:4" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="name">Your Email</label>
+                <input type="email" class="form-control" name="email" placeholder="example@example.com" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us" required></textarea>
+                <div class="validate"></div>
+              </div>
+              <div id="captcha">
+              </div>
+              <div class="form-group">
+              <input type="text" class="form-control" placeholder="Captcha" data-rule="required" data-msg="Please Enter the Captcha" id="cpatchaTextBox"/>
+            </div>
+              <div class="text-center" id="btnSend"><button type="submit">Send Message</button></div>
+              <div id="alert"></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <footer>
+    <div class="container" id="copy">
+      <div class="row">
+        <div class="col-lg-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
+          <p style="margin-bottom: 10px; text-align: center;">© Copyright 2019 <a href="http://betfairoddsapi.com/" target = "_blank">betfairoddsapi.com</a> All Rights Reserved. </p>
+          <p style="margin-top: 10px; text-align: center;">Crafted by <a href="http://betfairoddsapi.com/" target = "_blank"><img src="assets/images/logo.webp" loading="lazy" id="footimg" alt="logo" width= "10%"></a></p>
+        </div>
+      </div>
+    </div>
+
+
+    <section id="socialsec">
+      <div class="social">
+        <a href = "mailto: 108786betfair@gmail.com" target = "_blank"><i class="fas fa-envelope"></i></a>
+      </div>
+      <div class="social">
+        <a href="tel:+919321493757"><i class="fa fa-phone" aria-hidden="true"></i></a>
+      </div>
+      <div class="social">
+        <a class="skype" href="skype:live:.cid.8f90251ba2ed4c3f?chat" target="_blank"><i class="fa fa-skype" aria-hidden="true"></i></a>
+      </div>
+      <div class="social">
+        <a class="whatsapp" href="https://wa.me/+919321493757" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+      </div>
+    </section>
+
+    <div class="privacy">
+      <a style="color: #05288b;" href="assets/terms/privacy.html">Privacy Policy</a>
+      <a style="color: #05288b;" href="assets/terms/terms.html">Terms And Conditions</a>
+      <a style="color: #05288b;" href="assets/terms/disclaimer.html">Disclaimer</a>
+    </div>
+  </footer>
+<br>
+
+<a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+<div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- all cdns -->
+  <script src="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://pagecdn.io/lib/jquery-easing/1.4.1/jquery.easing.min.js" crossorigin="anonymous" async defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" async defer></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js" async defer></script>
+
+  <!-- font-awesome -->
+  <script src="https://kit.fontawesome.com/cf8396e4f3.js" crossorigin="anonymous" async defer></script>
+
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js" async defer></script>
+
+  <!-- swiper js -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script async = "true">
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
+
+<script async = "true">
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 5,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false
+    },
+    freeMode: true,
+    loop:true,
+    lazy: true,
+    
+
+    breakpoints: {
+      280:{
+            slidesPerView: 1,
+      },
+      360:{
+            slidesPerView: 2,
+      },
+          640: {
+            slidesPerView: 2,
+            
+          },
+          768: {
+            slidesPerView: 4,
+           
+          },
+          1024: {
+            slidesPerView: 5,
+            
+          },
+        },
+    pagination: {
+      
+      clickable: true
+    },
+  });
+</script>
+
+<script async = "true">
+  var code;
+function createCaptcha() {
+document.getElementById('captcha').innerHTML = "";
+var charsArray =
+"0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@";
+var lengthOtp = 6;
+var captcha = [];
+for (var i = 0; i < lengthOtp; i++) {
+var index = Math.floor(Math.random() * charsArray.length + 1); 
+if (captcha.indexOf(charsArray[index]) == -1)
+captcha.push(charsArray[index]);
+else i--;
+}
+var canv = document.createElement("canvas");
+canv.id = "captcha";
+canv.width = 100;
+canv.height = 50;
+var ctx = canv.getContext("2d");
+ctx.font = "25px Georgia";
+ctx.strokeText(captcha.join(""), 0, 30);
+code = captcha.join("");
+document.getElementById("captcha").appendChild(canv);
+}
+function validateCaptcha() {
+event.preventDefault();
+debugger
+if (document.getElementById("cpatchaTextBox").value == code) {
+// alert("Valid Captcha")
+readCap();
+}else{
+alert("Invalid Captcha. try Again");
+createCaptcha();
+}
+}
+
+function readCap(){
+              $.ajax({
+            url: 'https://vrnl.net/contactbetfairodds.php',
+            type: 'post',
+            data: $('#contactfrm').serialize(),
+            dataType: 'json',
+            success: function( _response ){
+              
+                var error = _response.error;
+                var success = _response.success;
+                console.log(success);
+                if(error != null) {
+                    
+                    $('#alert').html(error);
+                }
+                else {
+                   
+                    $('#alert').html(success);
+                    $('#btnSend').remove();
+                }
+            },
+            error: function(jqXhr, json, errorThrown){
+               
+                var error = jqXhr.responseText;
+                $('#alert').html(error);
+            }
+        });
+        }
+</script>
+</body>
+
+</html>
